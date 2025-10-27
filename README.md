@@ -23,7 +23,7 @@ I’m a results-driven Data Engineer passionate about designing scalable data pi
 | **[Sparkify Data Warehouse](https://github.com/Hamza-khan10/Sparkify_data_warehouse-)** | **Star schema** data warehouse in **Snowflake** for music streaming analytics. ETL from **S3 JSON logs/songs** → fact/dimension modeling. | `Snowflake SQL` `S3` `Star Schema` `ETL` |
 | **[SCD Type 1 & 2 in Snowflake](https://github.com/Hamza-khan10/slowly-changing-dimensions-with-snowflake)** | Implemented **historical versioning** of customer dimensions using `MERGE`. Full change detection with `Faker` data. | `Snowflake` `SQL MERGE` `SCD` `Data Versioning` |
 | **[OpenWeather Airflow Pipeline](https://github.com/Hamza-khan10/Airflow_openweather_pipeline)** | Real-time **weather API ingestion** → **S3 staging** → **Snowflake** analytics. Daily JSON parsing & scheduling. | `Airflow` `OpenWeather API` `Python` `S3` `Snowflake` |
-| **[SQL Server Medallion Warehouse]((https://github.com/Hamza-khan10/sql_data_warehouse))** | **Bronze → Silver → Gold** architecture in **SQL Server** for ERP/CRM data. Star schema + 60% query speedup. | `SQL Server` `ETL` `Medallion` `Star Schema` |
+| **[SQL Server Medallion Warehouse](https://github.com/Hamza-khan10/sql_data_warehouse)** | **Bronze → Silver → Gold** architecture in **SQL Server** for ERP/CRM data. Star schema + 60% query speedup. | `SQL Server` `ETL` `Medallion` `Star Schema` |
 
 ---
 
