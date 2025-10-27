@@ -15,10 +15,17 @@ I’m a results-driven Data Engineer passionate about designing scalable data pi
 
 ---
 
-## 📊 Projects  
-- **[U.S. Stock Data Pipeline](#):** Automated pipeline to extract, clean, and load U.S. stock data into structured CSV files.  
-- **[Pakistan Stock Exchange Scraper](#):** Real-time PSX stock price and trading data scraper with reusable modular design.  
-- **[TradingView Stock Metrics Extractor](#):** Selenium-based scraper for extracting stock-level metrics like EPS and market cap.  
+## 🚀 Featured Projects
+
+| Project | Description | Tech Stack |
+|---------|-----------|------------|
+| **[S&P 500 Airflow Pipeline](https://github.com/Hamza-khan10/S-P500-airflow-pipeline)** | Daily automated ingestion of **500+ stock tickers** via `yfinance` → transform with `pandas` → load to **Snowflake** via **S3**. Idempotent DAG with XComs & error handling. | `Airflow` `Docker` `yfinance` `pandas` `S3` `Snowflake` |
+| **[Sparkify Data Warehouse](https://github.com/Hamza-khan10/Sparkify_data_warehouse-)** | **Star schema** data warehouse in **Snowflake** for music streaming analytics. ETL from **S3 JSON logs/songs** → fact/dimension modeling. | `Snowflake SQL` `S3` `Star Schema` `ETL` |
+| **[SCD Type 1 & 2 in Snowflake](https://github.com/Hamza-khan10/slowly-changing-dimensions-with-snowflake)** | Implemented **historical versioning** of customer dimensions using `MERGE`. Full change detection with `Faker` data. | `Snowflake` `SQL MERGE` `SCD` `Data Versioning` |
+| **[OpenWeather Airflow Pipeline](https://github.com/Hamza-khan10/Airflow_openweather_pipeline)** | Real-time **weather API ingestion** → **S3 staging** → **Snowflake** analytics. Daily JSON parsing & scheduling. | `Airflow` `OpenWeather API` `Python` `S3` `Snowflake` |
+| **[SQL Server Medallion Warehouse](https://github.com/Hamza-khan10)** | **Bronze → Silver → Gold** architecture in **SQL Server** for ERP/CRM data. Star schema + 60% query speedup. | `SQL Server` `ETL` `Medallion` `Star Schema` |
+
+---
 
 ---
 
